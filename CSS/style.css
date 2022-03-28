@@ -110,7 +110,7 @@ body{
   margin:0 7rem;
 }
 
-.about .title h3{
+.about .title h2{
   
   font-size:25px;
   
@@ -144,8 +144,40 @@ body{
   letter-spacing:1px;
   font-size:18px;
 }
-.about .about-body .about-right h1 span{
+
+
+.about .about-body .about-right h2 span{
   color:rgb(100, 85, 85);
+  text-decoration:underline;
 }
 
+.service{
+  margin:0 7rem;
+  border:2px solid #111;
+}
+.service .service-title{
+  margin:0 7rem;
+}
+
+.services{
+  margin:0 7rem;
+}
+
+.services{
+  border:2px solid #111;
+  height:100vh;
+  display:grid;
+  padding:50px;
+  gap:10px;
+  grid-template-columns:1fr 1fr;
+  justify-content: center;
+  align-items:center;
+  grid-template-areas: 
+  "service1 service2"
+  "service3 service4";
+}
+
+.services .service1,.service2,.service3,.service4{
+  border:2px solid #111;
+}
 

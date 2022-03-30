@@ -276,7 +276,12 @@ body{
   height:100vh;
   display:flex;
   flex-direction:row;
+}
 
+.contact .contact-body .social{
+  padding:50px;
+  width:250px;
+  border:2px solid #111;
 }
 
 

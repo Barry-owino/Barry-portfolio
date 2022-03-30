@@ -59,7 +59,6 @@ body{
   border-radius:5px;
   padding:5px;
 }
-
 .hero{
   margin:0 7rem;
   padding-top:4rem;
@@ -155,18 +154,16 @@ body{
   margin:0 7rem;
   border:2px solid #111;
 }
-.service .service-title{
+.service .service-title,.projects .project-title{
   margin:0 7rem;
 }
 
-.services{
-  margin:0 7rem;
-}
 
 .services{
   border:2px solid #111;
   height:100vh;
   display:grid;
+  margin:0 7rem;
   padding:50px;
   gap:10px;
   grid-template-columns:1fr 1fr;
@@ -180,4 +177,108 @@ body{
 .services .service1,.service2,.service3,.service4{
   border:2px solid #111;
 }
+
+.skill,.project{
+  margin:0 7rem;
+  border:2px solid #111;
+}
+
+.skill .skill-title,.project .project-title{
+  margin:0 7rem;
+}
+
+.skills{
+  margin:0 7rem;
+  border:2px solid #111;
+  height:100vh;
+  display:grid;
+  padding:50px;
+  gap:10px;
+  grid-template-columns:1fr 1fr;
+  justify-content: center;
+  align-items:center;
+  grid-template-areas: 
+  "skill1 skill2"
+  "skill3 skill4";
+}
+
+.project{
+  height:145vh;/*Need to increase the height because of the images not yet added*/
+}
+.projects{
+  margin:0 7rem;
+  border:2px solid #111;
+  height:135vh;/*Need to increase the height because of the images*/
+  display:grid;
+  padding:50px;
+  gap:10px;
+  grid-template-columns:1fr 1fr;
+  justify-content: center;
+  align-items:center;
+  grid-template-areas: 
+  "project1 project2"
+  "project3 project4";
+}
+
+.skills .skill1,.skill2,
+.skill3,.skill4,.skill5,
+.skill6,.skill7,.skill8{
+  border:2px solid #111;
+}
+
+.projects .project1,.project2,.project3,.project4,.project4,
+.project5,.project6,.project7,.project8,.project9,.project10{
+  border:2px solid #111;
+}
+
+.contact{
+  border:2px solid #111;
+  margin:0 7rem;
+  height:150vh;
+  padding-top:5px;
+}
+
+.contact .contact-header{
+  border:2px solid #111;
+  margin:0 7rem;
+  height:52vh;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+.contact .contact-header .header-text{
+  width:100%;
+  height:150vh;
+  border:2px solid #111;
+  padding:50px;
+}
+
+.contact .contact-header .header-text p{
+  font-size:18px;
+  letter-spacing:1px;
+  line-height:28px;
+  padding-bottom:5px;
+}
+
+.contact .contact-header .header-text h3{
+  font-size:25px;
+  padding-top: 5px;
+}
+.contact .contact-header .header-text h2{
+  font-size:25px;
+  padding-bottom: 5px;
+}
+
+.contact .contact-body{
+  border:2px solid #111;
+  margin:0 7rem;
+  height:100vh;
+  display:flex;
+  flex-direction:row;
+
+}
+
+
+
 
